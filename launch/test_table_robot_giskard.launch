@@ -1,0 +1,8 @@
+<launch>
+  <remap from="/move" to="/qp_controller/command"/>
+
+  <node pkg="giskard_iai_table_robot" type="test_movements.py" name="table_robot_test_movements" >
+    <remap from="/move" to="/qp_controller/command"/>
+  </node>
+  
+</launch>
