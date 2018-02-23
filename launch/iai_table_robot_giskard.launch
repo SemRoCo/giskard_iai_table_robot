@@ -25,5 +25,6 @@
     </node>
   </group>
 
+  <node pkg="giskard_iai_table_robot" type="interactive_marker.py" name="interactive_marker" output="screen" >
 
 </launch>
