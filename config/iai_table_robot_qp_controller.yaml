@@ -7,3 +7,4 @@ min_num_traj_points: 50
 max_num_traj_points: 500
 nWSR: 100
 sample_period: 0.02
+fill_velocity_values: true
